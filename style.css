@@ -8,11 +8,11 @@ body{
 }
 
 a img:hover{
-    background-color:sandybrown;
+    background-color:aquamarine;
 }
 
 #head{
-    background-color:tomato;
+    background-color:darkblue;
     width: 800px;
     height: 800px;
     border-radius: 50%;
@@ -37,7 +37,7 @@ h1{
 }
 
 h1:hover{
-    color: black;
+    color: aquamarine;
 }
 
 a{
@@ -49,35 +49,29 @@ a{
 blockquote{
     transition: all 1s ease-in-out 0s;
     color:oldlace;
-    background-color:sandybrown;
+    background-color:darkblue;
     width: 600px;
     padding: 30px;
-    border: 5px solid tomato;
+    border: 5px solid aquamarine;
     margin: auto;
     margin-bottom: 100px;
 
 }
 
- blockquote:hover{
+blockquote:hover{
     width: 450px;
     padding: 50px;
-    border: 2px solid orangered;
+    border: 2px solid darkblue;
     border-radius: 30%;
-    background-color:tan;
- }
-
-h2{
-    color:tomato;
-    font-size: 2.5em;
-    margin-top: 50px;
+    background-color:blue;
 }
 
-h2~p{
-    font-size:larger;
+table {
+    align-items: center;
 }
 
-h3{
-    font-size: 1.5em;
+tr img {
+    width: 250px;
 }
 
 footer{
@@ -86,6 +80,6 @@ footer{
     padding: 20px;
 }
 
-video{
+html5-video{
     margin: 10px;
 }
